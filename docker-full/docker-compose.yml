@@ -7,8 +7,8 @@ services:
     volumes:
       - /home/kev/ros:/home/ros
       - /home/kev/cubie-1:/ros2
-    devices:
-      - /dev/ttyUSB0:/dev/ttyUSB0
+#    devices:
+#      - /dev/ttyUSB0:/dev/ttyUSB0
     tty: true
     environment:
       - DISPLAY
